@@ -15,7 +15,8 @@ function fortuneTeller(){
     let misfortune = misfortunes[randomNumberGenerator(misfortunes)];
 
     console.log(`The month of ${month} will be very important this year for you.\n
-    During ${month} ${fortune}.\n  However, this new found fortune is not all that awaits you.\n
+    During ${month} ${fortune}.\n
+    However, this new found fortune is not all that awaits you.\n
     You should be careful ${misfortune}.`);
 }
 
